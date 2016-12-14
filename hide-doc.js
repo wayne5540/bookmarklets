@@ -7,6 +7,10 @@ javascript:(function(){
       if (doc_regex.test(fileName)) {
         fileElement.style.display = 'none'
       }
+      const loadButton = fileElement.querySelector('.load-diff-button');
+      if (loadButton && !doc_regex.test(fileName)) {
+        loadButton.dispatchEvent(new Event('click', { bubbles: true }))
+      }
     }
   )
 }())

@@ -8,9 +8,8 @@ Create new bookmark and copy paste [hide-doc.js](/hide-doc.js) into it.
 
 ## TODO
 
-* Load diffs automatically
 * Check domain
-* Don't hide element, just de-collapse it.
+* Don't hide element, just collapse it.
 
 ## Licence
 
